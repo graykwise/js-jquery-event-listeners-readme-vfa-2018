@@ -10,7 +10,9 @@ $('p').on('click', function getIt() {
 });
 
 $('img ').on('load', function frameIt() {
-  alert("Hey!");
+ 
+  addClass('tasty')
+ 
   return;
 });
 
