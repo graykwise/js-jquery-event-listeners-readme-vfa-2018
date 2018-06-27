@@ -6,6 +6,7 @@ $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
+  submitIt();
 });
 
 function getIt() {
@@ -27,6 +28,13 @@ function pressIt() {
     if(key.which == 71) {
       alert("You pressed G");
     }
+    return;
+  });
+}
+
+function submitIt() {
+  $('p').on('click', function() {
+    alert('Hey!');
     return;
   });
 }
