@@ -17,5 +17,4 @@ $('img').on('load', function frameIt() {
 });
 
 
-
 });
