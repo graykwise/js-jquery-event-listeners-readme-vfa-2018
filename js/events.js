@@ -5,7 +5,7 @@ $(document).ready(function(){
 // call functions here
   getIt();
   frameIt();
-  submitIt();
+  pressIt();
 });
 
 function getIt() {
@@ -22,8 +22,8 @@ function frameIt() {
   });
 }
 
-function submitIt() {
-  $('p').on('click', function() {
+function pressIt() {
+  $('p').on('keydown', function() {
     alert('Hey!');
     return;
   });
