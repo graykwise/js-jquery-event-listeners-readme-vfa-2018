@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 // call functions here
   getIt();
+  frameIt();
 });
 
 function getIt() {
@@ -16,6 +17,13 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
     $(this).addClass('tasty');
+    return;
+  });
+}
+
+function submitIt() {
+  $('p').on('click', function() {
+    alert('Hey!');
     return;
   });
 }
