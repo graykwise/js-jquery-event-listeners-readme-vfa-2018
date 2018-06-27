@@ -33,7 +33,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  $('p').on('click', function() {
+  $('form').on('submit', function() {
     alert('Hey!');
     return;
   });
