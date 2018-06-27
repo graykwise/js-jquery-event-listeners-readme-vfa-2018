@@ -4,14 +4,10 @@ $(document).ready(function(){
 
 // call functions here
 
-
-
-$('img').on('load', function frameIt() {
- 
-  addClass('tasty')
- 
-  return;
+$(document).on('keypress', function(key) {
+  if (key.which == 13){
+    alert('enter was pressed');
+  }
 });
-
 
 });
