@@ -9,6 +9,11 @@ $('p').on('click', function getIt() {
   return;
 });
 
+$('img ').on('load', function frameIt() {
+  alert("Hey!");
+  return;
+});
+
 
 
 });
